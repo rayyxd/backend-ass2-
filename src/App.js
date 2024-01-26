@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import logo from './logo.svg';
 import './App.css';
 import 'leaflet/dist/leaflet.css';
 import axios from "axios";
@@ -144,7 +143,11 @@ function App() {
                         </Marker>
                     </MapContainer>
                 )}
+                <div id="footer">
+                    <p>Baitenov Arsen SE-2211</p>
+                </div>
             </div>
+
 );
 }
 

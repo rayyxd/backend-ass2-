@@ -61,6 +61,15 @@ table, td {
 
 }
 
+/**/
+li{
+  list-style-type: none;
+}
+#footer{
+  position: absolute;
+  color: #282c34;
+;
+}
 
 
 
